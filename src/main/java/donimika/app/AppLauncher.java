@@ -10,6 +10,10 @@ public class AppLauncher {
             public void run() {
                 // display our weather app gui
                 new WeatherAppGui().setVisible(true);
+
+       //         System.out.println(WeatherApp.getLocationData("London"));
+
+                System.out.println(WeatherApp.getCurrentTime());
             }
         });
     }
